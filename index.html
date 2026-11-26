@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of Nasrul Hayati — Accounting & Finance Professional, Bachelor of Accountancy at Universitas Terbuka. Specializing in financial reporting, bookkeeping, financial analysis, and business administration." />
+  <meta name="keywords" content="Nasrul Hayati, Accounting, Finance, Bookkeeping, Financial Analysis, Financial Reporting, Business Administration, Universitas Terbuka, Portfolio" />
+  <meta name="author" content="Nasrul Hayati" />
+  <meta property="og:title" content="Nasrul Hayati | Accounting & Finance Professional" />
+  <meta property="og:description" content="Turning Financial Data Into Meaningful Business Insights. Explore accounting, financial reporting, and financial analysis work by Nasrul Hayati." />
+  <meta property="og:type" content="website" />
+  <title>Nasrul Hayati | Accounting &amp; Finance Professional</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- Modular CSS Files -->
+  <link rel="stylesheet" href="css/themes.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+
+  <!-- Early Theme Initialization to Prevent Flash of Unstyled Content -->
+  <script>
+    (function () {
+      const savedTheme = localStorage.getItem('nh-portfolio-theme');
+      const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      const initialTheme = savedTheme ? savedTheme : (prefersDark ? 'dark' : 'light');
+      document.documentElement.setAttribute('data-theme', initialTheme);
+    })();
+  </script>
+</head>
+<body>
+  <!-- Decorative Ambient Background Blobs -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Section 1: Sticky Pill Navigation Bar -->
+  <header class="site-header" id="top">
+    <nav class="navbar container" aria-label="Primary Navigation">
+      <a href="#home" class="brand" aria-label="Nasrul Hayati Home">
+        <span class="brand-monogram">NH</span>
+        <span class="brand-name">Nasrul Hayati<span class="brand-dot">.</span></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#expertise" class="nav-link">Expertise</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <button type="button" class="theme-toggle" id="themeToggle" aria-label="Toggle dark or light theme" title="Switch Theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg>
+        </button>
+
+        <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="mobileDrawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+      <ul class="mobile-nav-list">
+        <li><a href="#home" class="mobile-nav-link">Home</a></li>
+        <li><a href="#about" class="mobile-nav-link">About</a></li>
+        <li><a href="#expertise" class="mobile-nav-link">Expertise</a></li>
+        <li><a href="#portfolio" class="mobile-nav-link">Portfolio</a></li>
+        <li><a href="#education" class="mobile-nav-link">Education</a></li>
+        <li><a href="#contact" class="mobile-nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 2: Hero Section -->
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <!-- Left Column -->
+        <div class="hero-content reveal">
+          <div class="eyebrow-pill">
+            <span class="pulse-dot" aria-hidden="true"></span>
+            <span>ACCOUNTING &amp; FINANCE PROFESSIONAL</span>
+          </div>
+
+          <h1 class="hero-title">
+            Turning <span class="text-gradient">Financial Data</span> Into Meaningful <span class="text-highlight-underline">Business Insights.</span>
+          </h1>
+
+          <p class="hero-description">
+            Hello, I'm <strong>Nasrul Hayati</strong>. I have an academic background in Accountancy from Universitas Terbuka, with an interest in financial reporting, accounting operations, and financial analysis. I enjoy transforming financial information into accurate reports and meaningful insights.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#portfolio" class="btn btn-primary">
+              <span>Explore My Portfolio</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <div class="hero-tags" aria-label="Core Specialties">
+            <span class="soft-tag tag-lavender">Financial Reporting</span>
+            <span class="soft-tag tag-mint">Bookkeeping</span>
+            <span class="soft-tag tag-pink">Business Administration</span>
+          </div>
+        </div>
+
+        <!-- Right Column: Portrait Composition with Floating Overlapping Cards -->
+        <div class="hero-visual reveal">
+          <div class="portrait-stage">
+            <div class="organic-backdrop" aria-hidden="true"></div>
+            <div class="decorative-ring" aria-hidden="true"></div>
+
+            <!-- Portrait Card (Replace src with your high-res portrait file in assets/images/nasrul-portrait.jpg) -->
+            <figure class="portrait-frame">
+              <div class="portrait-placeholder">
+                <svg class="portrait-illustration" viewBox="0 0 360 440" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Professional portrait placeholder for Nasrul Hayati">
+                  <defs>
+                    <linearGradient id="bgGrad" x1="0" y1="0" x2="360" y2="440" gradientUnits="userSpaceOnUse">
+                      <stop offset="0%" stop-color="#EDE7FF"/>
+                      <stop offset="55%" stop-color="#E3F7F0"/>
+                      <stop offset="100%" stop-color="#FCE7F2"/>
+                    </linearGradient>
+                    <linearGradient id="blazerGrad" x1="110" y1="255" x2="250" y2="430" gradientUnits="userSpaceOnUse">
+                      <stop offset="0%" stop-color="#A78BFA"/>
+                      <stop offset="100%" stop-color="#7C5CE6"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="360" height="440" rx="28" fill="url(#bgGrad)"/>
+                  <circle cx="290" cy="84" r="46" fill="#B8EBD8" fill-opacity="0.55"/>
+                  <circle cx="68" cy="350" r="58" fill="#F6D9E8" fill-opacity="0.65"/>
+                  <!-- Stylized Professional Silhouette -->
+                  <path d="M122 178C122 132 148 104 180 104C212 104 238 132 238 178V238C238 250 228 260 216 260H144C132 260 122 250 122 238V178Z" fill="#3B3354"/>
+                  <circle cx="180" cy="176" r="40" fill="#F7D5C4"/>
+                  <path d="M140 164C144 132 162 118 180 118C198 118 216 132 220 164C206 152 192 148 180 148C168 148 154 152 140 164Z" fill="#2A243D"/>
+                  <path d="M167 194C172 199 188 199 193 194" stroke="#B96E68" stroke-width="2.5" stroke-linecap="round"/>
+                  <circle cx="166" cy="174" r="3" fill="#2A243D"/>
+                  <circle cx="194" cy="174" r="3" fill="#2A243D"/>
+                  <path d="M90 440C96 346 130 296 180 296C230 296 264 346 270 440H90Z" fill="url(#blazerGrad)"/>
+                  <path d="M156 298L180 356L204 298" fill="#FFFFFF"/>
+                  <rect x="132" y="372" width="96" height="44" rx="10" fill="#FFFFFF" fill-opacity="0.92"/>
+                  <line x1="146" y1="388" x2="214" y2="388" stroke="#A78BFA" stroke-width="3" stroke-linecap="round"/>
+                  <line x1="146" y1="400" x2="192" y2="400" stroke="#8FDCC1" stroke-width="3" stroke-linecap="round"/>
+                </svg>
+                <div class="portrait-caption-badge">
+                  <span>Replace with Portrait Photo</span>
+                </div>
+              </div>
+            </figure>
+
+            <!-- Floating Card 1: Education -->
+            <div class="floating-card float-card-1">
+              <div class="float-icon lavender-bg" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="float-text">
+                <span class="float-label">Education</span>
+                <strong class="float-value">Bachelor of Accountancy</strong>
+              </div>
+            </div>
+
+            <!-- Floating Card 2: Focus -->
+            <div class="floating-card float-card-2">
+              <div class="float-icon mint-bg" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <rect x="3" y="3" width="18" height="18" rx="3"></rect>
+                  <path d="M7 15v-4M12 15V8M17 15v-6"></path>
+                </svg>
+              </div>
+              <div class="float-text">
+                <span class="float-label">Focus</span>
+                <strong class="float-value">Accounting &amp; Finance</strong>
+              </div>
+            </div>
+
+            <!-- Floating Card 3: Interest -->
+            <div class="floating-card float-card-3">
+              <div class="float-icon pink-bg" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M3 3v18h18"></path>
+                  <path d="m19 9-5 5-4-4-3 3"></path>
+                </svg>
+              </div>
+              <div class="float-text">
+                <span class="float-label">Interest</span>
+                <strong class="float-value">Financial Analysis</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Professional Highlights -->
+    <section class="highlights-section" aria-label="Professional Focus Areas">
+      <div class="container">
+        <div class="highlights-banner reveal">
+          <div class="highlight-item">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="8" y1="13" x2="16" y2="13"></line>
+                <line x1="8" y1="17" x2="16" y2="17"></line>
+              </svg>
+            </span>
+            <span>Financial Reporting</span>
+          </div>
+
+          <div class="highlight-item">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+              </svg>
+            </span>
+            <span>Bookkeeping</span>
+          </div>
+
+          <div class="highlight-item">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </span>
+            <span>Financial Analysis</span>
+          </div>
+
+          <div class="highlight-item">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                <line x1="8" y1="6" x2="16" y2="6"></line>
+                <line x1="8" y1="10" x2="10" y2="10"></line>
+                <line x1="14" y1="10" x2="16" y2="10"></line>
+                <line x1="8" y1="14" x2="10" y2="14"></line>
+                <line x1="14" y1="14" x2="16" y2="14"></line>
+                <line x1="8" y1="18" x2="16" y2="18"></line>
+              </svg>
+            </span>
+            <span>Accounting Operations</span>
+          </div>
+
+          <div class="highlight-item">
+            <span class="highlight-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </span>
+            <span>Business Administration</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: About Me -->
+    <section class="about section" id="about">
+      <div class="container about-grid">
+        <!-- Left Column: Editorial Workspace Visual + Floating Highlight -->
+        <div class="about-visual reveal">
+          <div class="workspace-card">
+            <div class="workspace-art" aria-hidden="true">
+              <!-- Structured Accounting Ledger & Workspace Illustration -->
+              <div class="ledger-sheet">
+                <div class="ledger-header">
+                  <div class="ledger-dots">
+                    <span></span><span></span><span></span>
+                  </div>
+                  <span class="ledger-tag">Structured Financial Clarity</span>
+                </div>
+
+                <div class="ledger-body">
+                  <div class="ledger-row header-row">
+                    <span>Account Classification</span>
+                    <span>Verification</span>
+                  </div>
+                  <div class="ledger-row">
+                    <span>General Ledger &amp; Journal Entries</span>
+                    <span class="pill-status mint">Reconciled</span>
+                  </div>
+                  <div class="ledger-row">
+                    <span>Statement of Financial Position</span>
+                    <span class="pill-status lavender">Balanced</span>
+                  </div>
+                  <div class="ledger-row">
+                    <span>Cash Flow &amp; Budget Review</span>
+                    <span class="pill-status pink">Structured</span>
+                  </div>
+                </div>
+
+                <div class="ledger-footer-bars">
+                  <div class="mini-bar" style="height: 44%"></div>
+                  <div class="mini-bar" style="height: 68%"></div>
+                  <div class="mini-bar active" style="height: 88%"></div>
+                  <div class="mini-bar" style="height: 60%"></div>
+                  <div class="mini-bar mint" style="height: 78%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-floating-badge">
+              <div class="badge-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  <path d="m9 12 2 2 4-4"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="badge-eyebrow">Universitas Terbuka</span>
+                <strong class="badge-title">Bachelor of Accountancy</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Narrative & 3 Info Cards -->
+        <div class="about-content reveal">
+          <span class="section-label">ABOUT ME</span>
+          <h2 class="section-title">More Than Numbers, Creating <span class="text-gradient">Financial Clarity.</span></h2>
+
+          <p class="about-text">
+            I am <strong>Nasrul Hayati</strong>, an accounting and finance professional with an academic foundation in the Bachelor of Accountancy program at <strong>Universitas Terbuka</strong>. My work centers on organizing financial records with precision, preparing reliable reports, and supporting transparent business administration.
+          </p>
+          <p class="about-text">
+            I believe that well-structured accounting goes beyond compliance—it provides clarity that empowers sound operational and strategic decisions. By combining methodical bookkeeping with data-driven financial analysis, I aim to turn raw figures into clear, actionable narratives.
+          </p>
+
+          <div class="about-cards-grid">
+            <article class="info-mini-card">
+              <div class="mini-card-icon lavender-bg" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+              </div>
+              <h3>Academic Background</h3>
+              <p>Bachelor of Accountancy at Universitas Terbuka, building strong theoretical and practical fluency in accounting standards and financial management.</p>
+            </article>
+
+            <article class="info-mini-card">
+              <div class="mini-card-icon mint-bg" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <polyline points="12 6 12 12 16 14"></polyline>
+                </svg>
+              </div>
+              <h3>Professional Interests</h3>
+              <p>Financial reporting, systematic bookkeeping, financial performance analysis, Excel-based financial modeling, and structured business administration.</p>
+            </article>
+
+            <article class="info-mini-card">
+              <div class="mini-card-icon pink-bg" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+                </svg>
+              </div>
+              <h3>Core Values</h3>
+              <p>Accuracy, integrity, accountability, and continuous improvement in delivering clear and dependable financial documentation.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Expertise & Skills -->
+    <section class="expertise section section-alt" id="expertise">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-label">CAPABILITIES</span>
+          <h2 class="section-title">Areas of <span class="text-gradient">Expertise.</span></h2>
+          <p class="section-subtitle">
+            Core competencies across accounting operations, financial reporting, spreadsheet management, and business administration.
+          </p>
+        </div>
+
+        <div class="expertise-grid">
+          <!-- Card 1: Financial Accounting -->
+          <article class="expertise-card reveal">
+            <div class="expertise-icon lavender-bg" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1 0-5H20"></path>
+                <path d="M8 7h6"></path>
+                <path d="M8 11h8"></path>
+              </svg>
+            </div>
+            <h3>Financial Accounting</h3>
+            <p class="expertise-desc">Maintaining accurate accounting cycles and structured ledger records in alignment with accounting principles.</p>
+            <ul class="skill-list">
+              <li>Financial statements</li>
+              <li>Journal entries</li>
+              <li>General ledger</li>
+            </ul>
+          </article>
+
+          <!-- Card 2: Financial Reporting -->
+          <article class="expertise-card reveal">
+            <div class="expertise-icon mint-bg" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <path d="M8 13h8"></path>
+                <path d="M8 17h5"></path>
+              </svg>
+            </div>
+            <h3>Financial Reporting</h3>
+            <p class="expertise-desc">Compiling clear, well-organized financial reports to reflect organizational financial position and cash movement.</p>
+            <ul class="skill-list">
+              <li>Income statements</li>
+              <li>Balance sheets</li>
+              <li>Cash flow statements</li>
+            </ul>
+          </article>
+
+          <!-- Card 3: Financial Analysis -->
+          <article class="expertise-card reveal">
+            <div class="expertise-icon pink-bg" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10"></line>
+                <line x1="12" y1="20" x2="12" y2="4"></line>
+                <line x1="6" y1="20" x2="6" y2="14"></line>
+              </svg>
+            </div>
+            <h3>Financial Analysis</h3>
+            <p class="expertise-desc">Evaluating financial health, variance trends, and operational efficiency to support informed decisions.</p>
+            <ul class="skill-list">
+              <li>Financial performance</li>
+              <li>Budget analysis</li>
+              <li>Financial ratios</li>
+            </ul>
+          </article>
+
+          <!-- Card 4: Bookkeeping -->
+          <article class="expertise-card reveal">
+            <div class="expertise-icon lavender-bg" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="9 11 12 14 22 4"></polyline>
+                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
+              </svg>
+            </div>
+            <h3>Bookkeeping</h3>
+            <p class="expertise-desc">Ensuring day-to-day financial transactions are systematically documented, verified, and reconciled.</p>
+            <ul class="skill-list">
+              <li>Transaction recording</li>
+              <li>Account reconciliation</li>
+              <li>Expense tracking</li>
+            </ul>
+          </article>
+
+          <!-- Card 5: Microsoft Excel -->
+          <article class="expertise-card reveal">
+            <div class="expertise-icon mint-bg" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="3" y1="9" x2="21" y2="9"></line>
+                <line x1="3" y1="15" x2="21" y2="15"></line>
+                <line x1="9" y1="3" x2="9" y2="21"></line>
+                <line x1="15" y1="3" x2="15" y2="21"></line>
+              </svg>
+            </div>
+            <h3>Microsoft Excel</h3>
+            <p class="expertise-desc">Organizing, summarizing, and validating financial datasets using structured spreadsheet workflows.</p>
+            <ul class="skill-list">
+              <li>Formulas and functions</li>
+              <li>Pivot Tables</li>
+              <li>Financial data management</li>
+            </ul>
+          </article>
+
+          <!-- Card 6: Business Administration -->
+          <article class="expertise-card reveal">
+            <div class="expertise-icon pink-bg" aria-hidden="true">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+              </svg>
+            </div>
+            <h3>Business Administration</h3>
+            <p class="expertise-desc">Supporting smooth administrative workflows, record archiving, and cross-functional documentation.</p>
+            <ul class="skill-list">
+              <li>Documentation</li>
+              <li>Administrative reporting</li>
+              <li>Business operations</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 6: Portfolio / Featured Projects -->
+    <section class="portfolio section" id="portfolio">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-label">PORTFOLIO</span>
+          <h2 class="section-title">Selected <span class="text-gradient">Projects &amp; Work.</span></h2>
+          <p class="section-subtitle">
+            Academic and applied accounting work samples. Filter by focus area to explore structured financial templates and analyses.
+          </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="portfolio-filters reveal" role="tablist" aria-label="Filter projects by category">
+          <button type="button" class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All Projects</button>
+          <button type="button" class="filter-btn" data-filter="statement-analysis" role="tab" aria-selected="false">Financial Statement Analysis</button>
+          <button type="button" class="filter-btn" data-filter="budget-planning" role="tab" aria-selected="false">Budget Planning &amp; Analysis</button>
+          <button type="button" class="filter-btn" data-filter="accounting-reporting" role="tab" aria-selected="false">Accounting Reporting</button>
+          <button type="button" class="filter-btn" data-filter="data-visualization" role="tab" aria-selected="false">Financial Data Visualization</button>
+        </div>
+
+        <!-- Portfolio Grid -->
+        <div class="portfolio-grid" id="portfolioGrid">
+          <!-- Project 1 -->
+          <article class="project-card reveal" data-category="statement-analysis" data-project-id="project-1">
+            <div class="project-thumb thumb-lavender">
+              <span class="project-badge">Editable Sample Project</span>
+              <div class="thumb-mockup" aria-hidden="true">
+                <div class="mock-line w-60"></div>
+                <div class="mock-grid-2">
+                  <div class="mock-box"></div>
+                  <div class="mock-box"></div>
+                </div>
+                <div class="mock-line w-85"></div>
+                <div class="mock-line w-45"></div>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-label">Financial Statement Analysis</span>
+              <h3 class="project-title">Comparative Financial Ratio &amp; Liquidity Study</h3>
+              <p class="project-desc">
+                Structured evaluation of liquidity, solvency, and profitability ratios across multi-period financial statements to assess operational stability.
+              </p>
+              <div class="project-tools">
+                <span>Financial Ratios</span>
+                <span>Balance Sheet</span>
+                <span>Microsoft Excel</span>
+              </div>
+              <button type="button" class="btn-link view-project-btn" data-project-id="project-1">
+                <span>View Project</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card reveal" data-category="budget-planning" data-project-id="project-2">
+            <div class="project-thumb thumb-mint">
+              <span class="project-badge">Editable Sample Project</span>
+              <div class="thumb-mockup" aria-hidden="true">
+                <div class="mock-bars">
+                  <span style="height: 45%"></span>
+                  <span style="height: 75%"></span>
+                  <span style="height: 60%"></span>
+                  <span style="height: 90%"></span>
+                </div>
+                <div class="mock-line w-70"></div>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-label">Budget Planning &amp; Analysis</span>
+              <h3 class="project-title">Operational Budget &amp; Variance Tracking Workbook</h3>
+              <p class="project-desc">
+                Departmental expense allocation and budget-versus-actual variance template designed to monitor monthly spending discipline.
+              </p>
+              <div class="project-tools">
+                <span>Budget Analysis</span>
+                <span>Pivot Tables</span>
+                <span>Expense Tracking</span>
+              </div>
+              <button type="button" class="btn-link view-project-btn" data-project-id="project-2">
+                <span>View Project</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card reveal" data-category="accounting-reporting" data-project-id="project-3">
+            <div class="project-thumb thumb-pink">
+              <span class="project-badge">Editable Sample Project</span>
+              <div class="thumb-mockup" aria-hidden="true">
+                <div class="mock-line w-50"></div>
+                <div class="mock-table">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-label">Accounting Reporting</span>
+              <h3 class="project-title">End-to-End General Ledger &amp; Financial Reporting Cycle</h3>
+              <p class="project-desc">
+                Complete bookkeeping workflow from journal entries and trial balance reconciliation to Income Statement, Balance Sheet, and Cash Flow preparation.
+              </p>
+              <div class="project-tools">
+                <span>General Ledger</span>
+                <span>Reconciliation</span>
+                <span>Financial Reporting</span>
+              </div>
+              <button type="button" class="btn-link view-project-btn" data-project-id="project-3">
+                <span>View Project</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </article>
+
+          <!-- Project 4 -->
+          <article class="project-card reveal" data-category="data-visualization" data-project-id="project-4">
+            <div class="project-thumb thumb-mixed">
+              <span class="project-badge">Editable Sample Project</span>
+              <div class="thumb-mockup" aria-hidden="true">
+                <div class="mock-donut"></div>
+                <div class="mock-line w-65"></div>
+                <div class="mock-line w-40"></div>
+              </div>
+            </div>
+            <div class="project-body">
+              <span class="project-category-label">Financial Data Visualization</span>
+              <h3 class="project-title">Executive Cash Flow &amp; Expense Summary Visual Report</h3>
+              <p class="project-desc">
+                Visual summary of revenue streams, operating cost structure, and cash inflow/outflow trends built for non-financial stakeholders.
+              </p>
+              <div class="project-tools">
+                <span>Cash Flow</span>
+                <span>Excel Charts</span>
+                <span>Data Storytelling</span>
+              </div>
+              <button type="button" class="btn-link view-project-btn" data-project-id="project-4">
+                <span>View Project</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Education -->
+    <section class="education section section-alt" id="education">
+      <div class="container">
+        <div class="section-header text-center reveal">
+          <span class="section-label">ACADEMIC FOUNDATION</span>
+          <h2 class="section-title">Education <span class="text-gradient">&amp; Coursework.</span></h2>
+        </div>
+
+        <div class="education-card reveal">
+          <div class="edu-decoration" aria-hidden="true">
+            <div class="edu-grad-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+              </svg>
+            </div>
+            <div class="edu-shape"></div>
+          </div>
+
+          <div class="edu-details">
+            <div class="edu-top-row">
+              <div>
+                <span class="edu-institution-badge">Higher Education</span>
+                <h3 class="edu-university">Universitas Terbuka</h3>
+                <p class="edu-degree">Bachelor of Accountancy (Sarjana Akuntansi)</p>
+              </div>
+              <div class="edu-year-pill" title="Editable placeholder for graduation year">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                <span>Graduation Year: [202X – Editable]</span>
+              </div>
+            </div>
+
+            <div class="edu-coursework">
+              <h4>Relevant Coursework <span class="placeholder-note">(Editable Placeholder)</span></h4>
+              <div class="coursework-tags">
+                <span>Financial Accounting</span>
+                <span>Managerial Accounting</span>
+                <span>Financial Statement Analysis</span>
+                <span>Auditing &amp; Assurance</span>
+                <span>Taxation</span>
+                <span>Accounting Information Systems</span>
+                <span>Financial Management</span>
+                <span>Business Administration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Contact / Call to Action -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div class="cta-glow cta-glow-1" aria-hidden="true"></div>
+          <div class="cta-glow cta-glow-2" aria-hidden="true"></div>
+
+          <div class="cta-content">
+            <span class="section-label">GET IN TOUCH</span>
+            <h2 class="cta-title">Let's Connect and Create Financial Value.</h2>
+            <p class="cta-description">
+              I'm always open to connecting with professionals, discussing opportunities, and exploring ways to contribute through accounting and financial insights.
+            </p>
+
+            <div class="cta-actions">
+              <a href="mailto:nasrul.hayati@example.com" class="btn btn-primary" id="emailBtn">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                </svg>
+                <span>Email Me</span>
+              </a>
+
+              <a href="https://www.linkedin.com/in/nasrul-hayati" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                <span>Connect on LinkedIn</span>
+              </a>
+            </div>
+
+            <div class="contact-direct-info">
+              <button type="button" class="copy-email-chip" id="copyEmailBtn" data-email="nasrul.hayati@example.com" title="Click to copy email address">
+                <span id="emailDisplay">nasrul.hayati@example.com</span>
+                <span class="copy-status" id="copyStatus">Copy</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Section 9: Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="brand" aria-label="Nasrul Hayati Home">
+            <span class="brand-monogram">NH</span>
+            <span class="brand-name">Nasrul Hayati<span class="brand-dot">.</span></span>
+          </a>
+          <p class="footer-tagline">
+            Accounting &amp; Finance Professional dedicated to accurate financial reporting, structured bookkeeping, and clear business insights.
+          </p>
+        </div>
+
+        <div class="footer-nav">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#expertise">Expertise</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-connect">
+          <h4>Connect</h4>
+          <ul>
+            <li>
+              <a href="https://www.linkedin.com/in/nasrul-hayati" target="_blank" rel="noopener noreferrer">
+                LinkedIn Profile
+              </a>
+            </li>
+            <li>
+              <a href="mailto:nasrul.hayati@example.com">
+                nasrul.hayati@example.com
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="currentYear"></span> Nasrul Hayati. All rights reserved.</p>
+        <p class="footer-note">Bachelor of Accountancy &bull; Universitas Terbuka</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Project Details Modal -->
+  <div class="modal-backdrop" id="projectModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close" id="modalClose" aria-label="Close project details">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-header">
+        <span class="modal-category" id="modalCategory">Category</span>
+        <h3 class="modal-title" id="modalTitle">Project Title</h3>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-summary" id="modalSummary"></p>
+
+        <div class="modal-section">
+          <h4>Scope &amp; Key Deliverables</h4>
+          <ul class="modal-list" id="modalDeliverables"></ul>
+        </div>
+
+        <div class="modal-section">
+          <h4>Tools &amp; Competencies Applied</h4>
+          <div class="modal-tools" id="modalTools"></div>
+        </div>
+
+        <div class="modal-placeholder-banner">
+          <strong>Note:</strong> This is an editable sample project entry. Replace with specific project documentation or case study files when ready.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Back to Top Button -->
+  <button type="button" class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to Top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="m18 15-6-6-6 6"></path>
+    </svg>
+  </button>
+
+  <!-- Modular JavaScript Files -->
+  <script src="js/theme.js"></script>
+  <script src="js/portfolio.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

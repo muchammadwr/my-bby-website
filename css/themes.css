@@ -1,0 +1,74 @@
+/* ==========================================================================
+   Theme Variables & Pastel Design System (Light Mode + Navy Blue Dark Mode)
+   ========================================================================== */
+
+:root {
+  /* Light Mode Palette */
+  --bg-primary: #FFFFFF;
+  --bg-secondary: #F8F6FC;
+  --bg-card: #FFFFFF;
+  --bg-glass: rgba(255, 255, 255, 0.82);
+
+  --accent-primary: #A78BFA;       /* Soft Lavender */
+  --accent-primary-deep: #7C5CE6;  /* Accessible Lavender Text/Hover */
+  --accent-secondary: #B8EBD8;     /* Mint Green */
+  --accent-secondary-deep: #2B8A6E;
+  --accent-highlight: #F6D9E8;     /* Soft Pink */
+  --accent-highlight-deep: #B54980;
+
+  --text-primary: #24212B;
+  --text-secondary: #777381;
+  --text-inverse: #FFFFFF;
+
+  --border-subtle: rgba(167, 139, 250, 0.22);
+  --border-card: rgba(36, 33, 43, 0.08);
+  --shadow-soft: 0 12px 32px -8px rgba(36, 33, 43, 0.07);
+  --shadow-hover: 0 20px 40px -12px rgba(124, 92, 230, 0.16);
+  --shadow-nav: 0 10px 30px -10px rgba(36, 33, 43, 0.1);
+
+  --highlights-bar-bg: #24212B;
+  --highlights-bar-text: #F5F3FA;
+
+  --cta-gradient: linear-gradient(135deg, rgba(167, 139, 250, 0.22) 0%, rgba(184, 235, 216, 0.34) 55%, rgba(246, 217, 232, 0.28) 100%);
+
+  /* Typography */
+  --font-heading: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Radii & Transitions */
+  --radius-sm: 12px;
+  --radius-md: 20px;
+  --radius-lg: 28px;
+  --radius-pill: 9999px;
+  --transition-base: 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+/* Dark Mode Palette — Rich Navy Blue */
+[data-theme="dark"] {
+  --bg-primary: #081525;           /* Deep Midnight Navy */
+  --bg-secondary: #0D1F36;         /* Rich Navy Secondary */
+  --bg-card: #132A46;              /* Navy Slate Card Surface */
+  --bg-glass: rgba(13, 31, 54, 0.85);
+
+  --accent-primary: #B9A0FF;       /* Luminous Lavender */
+  --accent-primary-deep: #CBB8FF;
+  --accent-secondary: #8FDCC1;     /* Soft Mint Green */
+  --accent-secondary-deep: #8FDCC1;
+  --accent-highlight: #E8BBD8;     /* Soft Pastel Pink */
+  --accent-highlight-deep: #F2CBE3;
+
+  --text-primary: #F3F6FB;
+  --text-secondary: #A6B6CC;
+  --text-inverse: #081525;
+
+  --border-subtle: rgba(185, 160, 255, 0.22);
+  --border-card: rgba(166, 182, 204, 0.14);
+  --shadow-soft: 0 14px 34px -8px rgba(3, 9, 18, 0.6);
+  --shadow-hover: 0 22px 44px -12px rgba(3, 9, 18, 0.78);
+  --shadow-nav: 0 12px 32px -8px rgba(3, 9, 18, 0.68);
+
+  --highlights-bar-bg: #0D1F36;
+  --highlights-bar-text: #F3F6FB;
+
+  --cta-gradient: linear-gradient(135deg, rgba(185, 160, 255, 0.16) 0%, rgba(143, 220, 193, 0.14) 55%, rgba(232, 187, 216, 0.14) 100%);
+}
